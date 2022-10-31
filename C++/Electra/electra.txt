@@ -1,0 +1,25 @@
+- => Horizontal Cable
+| => Vertical Cable
+~ => Horizontal Key: When touched from up or down it turnes into Horizontal Cable
+\ => Vertical key: When touched from left or right it turnes into Vertical Cable
+* => Print last item of vector as number
+H => Print last item of vector as ascii character 
++ => Four Way Cable
+I => Increase current value by one
+= => Decrease current value by one
+! => Adds current value to vector
+L => Removes last item from vector
+M => Multiplies last element of vector (Also removes last item and sets result equal to current last item)
+A => Adds last two element of vector
+S => Subtracts last two element of vector (v[-2] - v[-1])
+/ => Divides last two element of vector (v[-2] / v[-1])
+% => Takes input from user and sets it equal to current value
+$ => Swaps last element of vector and current value
+[ => When current value is equal to zero acts like horizontal cable otherwise acts like vertical cable (You can connect to it from any direction you want it changes electricity direction depending on current value)
+] => When current value is equal to last element of vector acts like horizontal cable otherwise acts like vertical cable (You can connect to it from any direction you want it changes electricity direction depending on current value)
+> => Creates a electricity signal (Direction: Right)
+< => Creates a electricity signal (Direction: Left)
+^ => Creates a electricity signal (Direction: Up)
+v => Creates a electricity signal (Direction: Down)
+x => Creates four electricity signals (Up, Down, Right, Left)
+# => Sets current value equal to zero
