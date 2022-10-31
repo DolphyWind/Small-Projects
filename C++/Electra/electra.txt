@@ -9,7 +9,7 @@ I => Increase current value by one
 = => Decrease current value by one
 ! => Adds current value to vector
 L => Removes last item from vector
-M => Multiplies last element of vector (Also removes last item and sets result equal to current last item)
+M => Multiplies last two elements of vector (Also removes last item and sets result equal to current last item)
 A => Adds last two element of vector
 S => Subtracts last two element of vector (v[-2] - v[-1])
 / => Divides last two element of vector (v[-2] / v[-1])
