@@ -1,0 +1,3 @@
+#define MAINICON 101
+
+MAINICON ICON "Images/icon.ico"

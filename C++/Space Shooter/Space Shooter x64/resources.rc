@@ -1,0 +1,3 @@
+#define IDI_ICON_1 102
+
+IDI_ICON_1 ICON "Textures\\icon.ico"
