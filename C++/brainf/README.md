@@ -1,1 +1,1 @@
-Simple Brainf**k interpreter with C
+Simple Brainf**k interpreter written in C
