@@ -85,7 +85,8 @@ int main(int argc, char** argv)
 		{
 			if(!memory[currentCell])
 			{
-			    size_t extraLoops = 0;
+				size_t extraLoops = 0;
+				i++;
 				while(i < codeLength)
 				{
 				    if(bfcode[i] == '[')
