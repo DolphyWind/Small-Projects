@@ -1,2 +1,2 @@
 # Small-Codes
-Old projects of mine that i like
+Small projects of mine that i like
