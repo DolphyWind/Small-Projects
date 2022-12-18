@@ -1,0 +1,1 @@
+cp brainf /usr/bin/
