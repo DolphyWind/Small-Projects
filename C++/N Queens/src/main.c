@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
+#ifndef N
 #define N 8
+#endif
 
 bool board[N][N];
 FILE *fp;
