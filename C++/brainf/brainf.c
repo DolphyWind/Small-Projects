@@ -15,7 +15,8 @@ size_t i = 0, codeLength = 0;
 
 void interruptHandler(int signum)
 {
-    i = codeLength;
+	// Ends the while loop
+	i = codeLength;
 }
 
 int main(int argc, char** argv)
@@ -27,6 +28,9 @@ int main(int argc, char** argv)
 	}
 	
 	signal(SIGINT, interruptHandler);
+	signal(SIGTERM, interruptHandler);
+	signal(SIGQUIT, interruptHandler);
+	signal(SIGKILL, interruptHandler);
 	
 	// Read file content into bfcode
 	FILE *f = fopen(argv[1], "r");
