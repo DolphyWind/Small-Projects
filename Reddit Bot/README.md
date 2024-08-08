@@ -1,0 +1,3 @@
+# Minesweeper Bot
+
+A Reddit bot for playing Minesweeper on Reddit, when Reddit API was free...
