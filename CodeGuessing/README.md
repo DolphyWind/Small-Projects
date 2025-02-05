@@ -1,3 +1,3 @@
 # Code Guessing
 
-My [Code Guessing](cg.esolangs.gay) entries.
+My [Code Guessing](https://codeguessing.gay/) entries.
