@@ -15,6 +15,8 @@ struct WordPair
     double freq;
 };
 
+// We are doing this because of std::vector<bool> "optimization".
+// Whose idea was it again?
 class BoolProxy
 {
 public:
@@ -25,6 +27,7 @@ private:
     bool _value;
 };
 
+// Imagine if threads had is_alive() function like they do in Python
 struct ThreadSignal
 {
     BoolProxy& flag;

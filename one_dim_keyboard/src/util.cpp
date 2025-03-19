@@ -74,10 +74,11 @@ double cost_fn(const WordFreqMap &words, const Layout &l)
     return total_cost;
 }
 
+// Banger mobile game
 void hill_climb_racing(const WordFreqMap& words, sql::Database& db, BoolProxy& flag_ref)
 {
     ThreadSignal signal(flag_ref);
-    // Add a bloom filter here
+    // Maybe add a bloom filter here to potentially speed up the code but it is already pretty fast
     std::unordered_set<std::string> seen_layouts;
     std::string current_str_layout = ascii_lowercase;
     std::random_device dev;
@@ -99,6 +100,9 @@ void hill_climb_racing(const WordFreqMap& words, sql::Database& db, BoolProxy& f
                 std::swap(current_str_layout[i], current_str_layout[j]);
                 if(seen_layouts.contains(current_str_layout))
                 {
+                    // I was gonna implement an RAII swapper just to not repeat
+                    // this code here and at the end of the loop but that was a
+                    // huge overkill
                     std::swap(current_str_layout[i], current_str_layout[j]);
                     continue;
                 }
