@@ -1,0 +1,7 @@
+# You shouldn't be looking here ;)
+QUESTION "Which one is the best drink according to LyricLy?" ANSWERS "Coca-Cola" "Sprite" "Corona" "Dr. Pepper" CORRECT 4
+QUESTION "Will LyricLy ever implement macron?" ANSWERS "Yes" "No" CORRECT 2
+QUESTION "Which type of genre LyricLy hates the most?" ANSWERS "Sokoban" "RPG" "Platformer" "Sandbox" CORRECT 1
+QUESTION "What is LyricLy's birthday?" ANSWERS "Oct 29th" "Oct 30th" "Nov 29th" "Nov 30th" CORRECT 4
+QUESTION "Which game LyricLy plays the most?" ANSWERS "Minecraft" "Overwatch 2" "Town of Salem 2" "Terraria" CORRECT 3
+QUESTION "As of now, when did LyricLy's oldest public video got uploaded to YouTube?" ANSWERS "Feb 12 2015" "March 12 2015" "Feb 12 2016" "March 12 2016" CORRECT 1
